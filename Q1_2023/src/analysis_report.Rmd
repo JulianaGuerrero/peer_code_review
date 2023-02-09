@@ -1,0 +1,209 @@
+---
+title: "Trucker Experiment monitoring"
+date: "Last compiled on `r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    toc: yes
+    toc_float:
+      collapsed: yes
+      smooth_scroll: yes
+    toc_depth: 3
+    number_sections: yes
+    theme: lumen
+resource_files:
+- crops_id.csv
+---
+
+```{r setup, include=FALSE}
+# set up
+knitr::opts_chunk$set(echo = TRUE,warning=FALSE,message = F)
+options(scipen=5)
+
+
+```
+
+
+```{r read data, include = FALSE, echo=FALSE}
+
+# survey data
+# villages
+mnt <- read.csv(file.path(output, "mnt_upd.csv"))
+# crops
+crops <- read.csv(file.path(output, "crops_upd.csv"))
+# truckers
+truc <- read.csv(file.path(input, "Trucker monitoring-survey-trucker.csv"))
+
+```
+
+
+# Monitoring Villages 
+```{r summary, echo=FALSE}
+# summary
+st <- mnt %>% ungroup() %>% 
+  summarise(villages=n_distinct(village_id),
+                        villages_trucker_show=sum(trucker_present,na.rm = T),
+                        per_aggregator_trans=100*sum(aggregator_transp,na.rm=T)/villages)
+
+st %>%
+  kable(booktabs = TRUE,
+        col.names = c('No.Villages','Villages where trucker show up',
+                      '%Villages where aggregator transported')) %>%
+  kable_styling(bootstrap_options = "condensed",
+                font_size = 14, full_width = FALSE, position = "left")
+
+
+```
+
+
+Villages by monitoring type 
+
+```{r table 1, echo=FALSE}
+mnt %>% group_by(monitoring_type) %>% 
+  summarise(villages=n()) %>%
+  mutate(per_villages=round(villages*100/sum(villages),2)) %>% 
+  mutate(monitoring_type=ifelse(monitoring_type==1,'Enumerator is present','Phone call with village leader')) %>% 
+  kable(booktabs = TRUE) %>%
+  kable_styling(bootstrap_options = "condensed",
+                font_size = 14, full_width = FALSE, position = "left")
+
+```
+
+
+
+```{r plot 1, echo=FALSE}
+# plot number of truckers in village 
+ggplot(mnt) + 
+  geom_bar(aes(x = factor(num_truckers), y = ..count..,group=1),
+           stat = "count",fill="darkblue")+
+  labs(title='Number of truckers in village',y='Villages',x='Number of truckers')
+  
+
+```
+
+```{r plot 2, echo=FALSE}
+# plot number of farmers in village 
+ggplot(mnt, aes(x=number_farmers))+
+  geom_histogram(fill="darkblue")+ 
+  labs(title='Number of farmers',x='Number of farmers',
+       y='Villages')+
+  scale_x_continuous(breaks = seq(0,7, by = 1))
+
+# table number of farmers per village 
+mnt %>% group_by(village_id) %>% 
+  select(district, market,number_farmers) %>%  
+  kable(booktabs = TRUE) %>%
+  kable_styling(bootstrap_options = "condensed",
+                font_size = 14, full_width = FALSE, position = "left")
+```
+
+Did the trucker transport crops from other farmers along the way?
+```{r other transport, echo=FALSE}
+
+mnt %>% group_by(other_transp) %>% 
+  summarise(villages=n()) %>%
+  mutate(per_villages=round(villages*100/sum(villages),2)) %>% 
+  mutate(other_transp=ifelse(other_transp==1,'Yes','No')) %>% 
+  kable(booktabs = TRUE) %>%
+  kable_styling(bootstrap_options = "condensed",
+                font_size = 14, full_width = FALSE, position = "left")
+
+```
+
+Aggregator transported crops with the trucker
+
+```{r agg transport, echo=FALSE}
+
+mnt %>% group_by(aggregator_transp) %>% 
+  summarise(villages=n()) %>%
+  mutate(per_villages=round(villages*100/sum(villages),2)) %>% 
+  mutate(aggregator_transp=ifelse(aggregator_transp==1,'Yes','No')) %>% 
+  kable(booktabs = TRUE) %>%
+  kable_styling(bootstrap_options = "condensed",
+                font_size = 14, full_width = FALSE, position = "left")
+
+```
+
+
+Villages where truckers show up
+
+```{r Villages truckers, echo=FALSE}
+mnt %>% mutate(trucker_showup=ifelse(trucker_present>0,"Yes","No")) %>% 
+  group_by(trucker_showup) %>% summarise(num_villages=n()) %>% 
+  mutate(per_vill=100*num_villages/sum(num_villages)) %>%  
+  kable(booktabs = TRUE) %>%
+  kable_styling(bootstrap_options = "condensed",
+                font_size = 14, full_width = FALSE, position = "left")
+
+
+
+```
+Did the trucker use the sampled feeder road to reach the market & village?
+```{r sampled road, echo=FALSE}
+ggplot(mnt) + 
+  geom_bar(aes(x = factor(sampled_road_taken), y = ..prop..,group=1),
+           stat = "count",fill="darkblue")+
+  scale_y_continuous(labels = scales::percent_format())+
+  labs(title='Sampled road taken',y='%',x='')+
+  scale_x_discrete(labels=c("1" = "Yes","0"="No","NA"="NA"))
+```
+
+
+Is the road from the village to the market rehabilitated?
+```{r road rehabilitated, echo=FALSE}
+mnt %>% mutate(road_rehab=ifelse(road_rehab=='1','Yes',ifelse(road_rehab==0,'No',NA))) %>% 
+  ggplot() + 
+  geom_bar(aes(x = factor(road_rehab), y = ..prop..,group=1),
+           stat = "count",fill="darkblue")+
+  scale_y_continuous(labels = scales::percent_format())+
+  labs(title='Road rehabilitated',y='%',x='')
+```
+
+
+What is the road condition from the village to the market? 
+```{r road condition, echo=FALSE}
+mylabels <- c('Very bad','Bad','Fairly good','Very good',NA)
+ggplot(mnt) + 
+  geom_bar(aes(x = factor(road_condition_new), y = ..prop..,group=1),
+           stat = "count",fill="darkblue")+
+  scale_y_continuous(labels = scales::percent_format())+
+  labs(title='Road condition',y='%',x='')+
+  scale_x_discrete(labels=mylabels)
+
+```
+
+# Monitoring crops
+
+```{r plot 3, echo=FALSE}
+
+crops %>% 
+  ggplot(aes(x=name_eng)) + 
+  geom_bar(aes(y = ..prop.., group = 1),fill="darkblue")+
+  labs(title='Crops transported',y='%',x='Crop')+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+  scale_y_continuous(labels = scales::percent_format())
+```
+
+Total quantities transported in Kg
+```{r quantities, echo=FALSE}
+crops %>% group_by(name_eng) %>% 
+  summarise(quant_farmers_total=sum(quant_crops_farmers,na.rm=T),
+            quant_agreggator_total=sum(quant_crops_aggregator,na.rm=T)) %>%  
+  kable(booktabs = TRUE) %>%
+  kable_styling(bootstrap_options = "condensed",
+                font_size = 14, full_width = FALSE, position = "left")
+
+
+
+```
+
+# Monitoring truckers
+Contract awarded during the WTA
+```{r contracts truckers, echo=FALSE}
+
+truc %>% 
+  ggplot(aes(x=factor(contract_wta))) + 
+  geom_bar(aes(y = ..prop.., group = 1),fill="darkblue")+
+  labs(title='Contract wta',y='%',x='')+
+  scale_y_continuous(labels = scales::percent_format())+
+  scale_x_discrete(labels=c("0" = "No", "1" = "Yes"))
+```

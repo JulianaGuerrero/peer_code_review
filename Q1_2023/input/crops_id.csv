@@ -1,0 +1,47 @@
+crop_id,name_eng,name_org
+1,Maize,Ibigori
+2,Sorghum,Amasaka
+3,Wheat,Ingano
+4,Millet,Uburo
+5,Rice,Umuceri
+6,Sun flower,Ibihwagari
+7,Irish Potatoes,Ibirayi
+8,Sweet Potatoes,Ibijumba
+9,Yam,Ibikoro
+10,Soybeans,Soya
+11,Groundnuts,Ubunyobwa
+12,Green/French Beans,Imiteja
+13,Small beans,Ibishyimbo bigufi
+14,Climbing bean,Imishingiriro
+15,Green peas,Amashaza
+16,Eggplant,Intoryi
+17,Pumpkin,Ibihaza
+18,Pepper,Urusenda
+19,Sweet pepper,Pavuro
+20,Tomato,Inyanya
+21,Cabbage,Amashu
+22,Cauliflower,(Cauliflower)
+23,Onion,Amatunguru
+24,Carrot,Karoti
+25,Amaranth,Dodo
+26,Celery,Seleri
+27,Spinach,Ipinari
+28,Garlic,Tungurusumu
+29,Cucumber,Kokombure
+30,Pineapple,Inanasi
+31,Bananas for cooking,Inyamunyo
+32,Banana fruits,Igitoki kiribwa imineke
+33,Bananas for beer,ikakama/ inkashi
+34,Coffee,Ikawa
+35,Tea,Icyayi
+36,Mango,Imyembe
+37,Papaya,Ipapayi
+38,Avocado,Avoka
+39,Tree tomato,Ibinyomoro
+40,Cassava,Imyumbati
+41,Taro,Amateke
+42,Sugar cane,Ibisheke
+43,Pyrethrum,Ibireti
+44,Macadamia,Makademiya
+0,None,Ntacyo
+-77,Other,Ibindi

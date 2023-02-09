@@ -1,0 +1,49 @@
+crop_index,crop_id,crop_name,quant_crops_farmers,quant_crops_aggregator,PARENT_KEY,KEY,SET-OF-crop_transp
+1,8,Ibijumba,,,uuid:13f75d84-f1a6-4bc8-9c89-6d56f73ec25f,uuid:13f75d84-f1a6-4bc8-9c89-6d56f73ec25f/survey-crop_transp[1],uuid:13f75d84-f1a6-4bc8-9c89-6d56f73ec25f/survey-crop_transp
+2,19,Pavuro,,,uuid:13f75d84-f1a6-4bc8-9c89-6d56f73ec25f,uuid:13f75d84-f1a6-4bc8-9c89-6d56f73ec25f/survey-crop_transp[2],uuid:13f75d84-f1a6-4bc8-9c89-6d56f73ec25f/survey-crop_transp
+3,21,Amashu,,,uuid:13f75d84-f1a6-4bc8-9c89-6d56f73ec25f,uuid:13f75d84-f1a6-4bc8-9c89-6d56f73ec25f/survey-crop_transp[3],uuid:13f75d84-f1a6-4bc8-9c89-6d56f73ec25f/survey-crop_transp
+4,32,Igitoki kiribwa imineke,,,uuid:13f75d84-f1a6-4bc8-9c89-6d56f73ec25f,uuid:13f75d84-f1a6-4bc8-9c89-6d56f73ec25f/survey-crop_transp[4],uuid:13f75d84-f1a6-4bc8-9c89-6d56f73ec25f/survey-crop_transp
+5,38,Avoka,,,uuid:13f75d84-f1a6-4bc8-9c89-6d56f73ec25f,uuid:13f75d84-f1a6-4bc8-9c89-6d56f73ec25f/survey-crop_transp[5],uuid:13f75d84-f1a6-4bc8-9c89-6d56f73ec25f/survey-crop_transp
+1,3,Ingano,300,200,uuid:bba239f3-89f4-4ef1-a47f-0c53c892ddbb,uuid:bba239f3-89f4-4ef1-a47f-0c53c892ddbb/survey-crop_transp[1],uuid:bba239f3-89f4-4ef1-a47f-0c53c892ddbb/survey-crop_transp
+2,14,Imishingiriro,100,100,uuid:bba239f3-89f4-4ef1-a47f-0c53c892ddbb,uuid:bba239f3-89f4-4ef1-a47f-0c53c892ddbb/survey-crop_transp[2],uuid:bba239f3-89f4-4ef1-a47f-0c53c892ddbb/survey-crop_transp
+1,7,Ibirayi,260,0,uuid:8958e865-7945-4677-9581-e1c3d9730857,uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-crop_transp[1],uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-crop_transp
+2,13,Ibishyimbo bigufi,0,1200,uuid:8958e865-7945-4677-9581-e1c3d9730857,uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-crop_transp[2],uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-crop_transp
+3,14,Imishingiriro,0,10,uuid:8958e865-7945-4677-9581-e1c3d9730857,uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-crop_transp[3],uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-crop_transp
+4,16,Intoryi,30,0,uuid:8958e865-7945-4677-9581-e1c3d9730857,uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-crop_transp[4],uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-crop_transp
+5,19,Pavuro,180,0,uuid:8958e865-7945-4677-9581-e1c3d9730857,uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-crop_transp[5],uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-crop_transp
+6,20,Inyanya,450,0,uuid:8958e865-7945-4677-9581-e1c3d9730857,uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-crop_transp[6],uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-crop_transp
+7,31,Inyamunyo,350,0,uuid:8958e865-7945-4677-9581-e1c3d9730857,uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-crop_transp[7],uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-crop_transp
+8,33,ikakama/ inkashi,40,0,uuid:8958e865-7945-4677-9581-e1c3d9730857,uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-crop_transp[8],uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-crop_transp
+1,8,Ibijumba,0,200,uuid:18ada361-95ad-4167-a0de-f1a156671b65,uuid:18ada361-95ad-4167-a0de-f1a156671b65/survey-crop_transp[1],uuid:18ada361-95ad-4167-a0de-f1a156671b65/survey-crop_transp
+2,13,Ibishyimbo bigufi,30,0,uuid:18ada361-95ad-4167-a0de-f1a156671b65,uuid:18ada361-95ad-4167-a0de-f1a156671b65/survey-crop_transp[2],uuid:18ada361-95ad-4167-a0de-f1a156671b65/survey-crop_transp
+3,17,Ibihaza,0,200,uuid:18ada361-95ad-4167-a0de-f1a156671b65,uuid:18ada361-95ad-4167-a0de-f1a156671b65/survey-crop_transp[3],uuid:18ada361-95ad-4167-a0de-f1a156671b65/survey-crop_transp
+4,31,Inyamunyo,0,200,uuid:18ada361-95ad-4167-a0de-f1a156671b65,uuid:18ada361-95ad-4167-a0de-f1a156671b65/survey-crop_transp[4],uuid:18ada361-95ad-4167-a0de-f1a156671b65/survey-crop_transp
+1,1,Ibigori,100,,uuid:918b1953-a69d-4b39-b940-535e1b02393d,uuid:918b1953-a69d-4b39-b940-535e1b02393d/survey-crop_transp[1],uuid:918b1953-a69d-4b39-b940-535e1b02393d/survey-crop_transp
+2,13,Ibishyimbo bigufi,42,,uuid:918b1953-a69d-4b39-b940-535e1b02393d,uuid:918b1953-a69d-4b39-b940-535e1b02393d/survey-crop_transp[2],uuid:918b1953-a69d-4b39-b940-535e1b02393d/survey-crop_transp
+1,8,Ibijumba,50,0,uuid:c1c222e6-31b4-418c-88d0-91e52fc3f5bd,uuid:c1c222e6-31b4-418c-88d0-91e52fc3f5bd/survey-crop_transp[1],uuid:c1c222e6-31b4-418c-88d0-91e52fc3f5bd/survey-crop_transp
+2,13,Ibishyimbo bigufi,0,250,uuid:c1c222e6-31b4-418c-88d0-91e52fc3f5bd,uuid:c1c222e6-31b4-418c-88d0-91e52fc3f5bd/survey-crop_transp[2],uuid:c1c222e6-31b4-418c-88d0-91e52fc3f5bd/survey-crop_transp
+3,31,Inyamunyo,25,0,uuid:c1c222e6-31b4-418c-88d0-91e52fc3f5bd,uuid:c1c222e6-31b4-418c-88d0-91e52fc3f5bd/survey-crop_transp[3],uuid:c1c222e6-31b4-418c-88d0-91e52fc3f5bd/survey-crop_transp
+4,40,Imyumbati,0,50,uuid:c1c222e6-31b4-418c-88d0-91e52fc3f5bd,uuid:c1c222e6-31b4-418c-88d0-91e52fc3f5bd/survey-crop_transp[4],uuid:c1c222e6-31b4-418c-88d0-91e52fc3f5bd/survey-crop_transp
+1,31,Inyamunyo,50,,uuid:9241078e-31cd-47ce-8831-438c88575253,uuid:9241078e-31cd-47ce-8831-438c88575253/survey-crop_transp[1],uuid:9241078e-31cd-47ce-8831-438c88575253/survey-crop_transp
+2,-77,Ibindi,1000,,uuid:9241078e-31cd-47ce-8831-438c88575253,uuid:9241078e-31cd-47ce-8831-438c88575253/survey-crop_transp[2],uuid:9241078e-31cd-47ce-8831-438c88575253/survey-crop_transp
+1,2,Amasaka,50,,uuid:85a119d8-d81e-469a-8380-55d0866183ec,uuid:85a119d8-d81e-469a-8380-55d0866183ec/survey-crop_transp[1],uuid:85a119d8-d81e-469a-8380-55d0866183ec/survey-crop_transp
+2,7,Ibirayi,250,,uuid:85a119d8-d81e-469a-8380-55d0866183ec,uuid:85a119d8-d81e-469a-8380-55d0866183ec/survey-crop_transp[2],uuid:85a119d8-d81e-469a-8380-55d0866183ec/survey-crop_transp
+3,32,Igitoki kiribwa imineke,45,,uuid:85a119d8-d81e-469a-8380-55d0866183ec,uuid:85a119d8-d81e-469a-8380-55d0866183ec/survey-crop_transp[3],uuid:85a119d8-d81e-469a-8380-55d0866183ec/survey-crop_transp
+4,42,Ibisheke,75,,uuid:85a119d8-d81e-469a-8380-55d0866183ec,uuid:85a119d8-d81e-469a-8380-55d0866183ec/survey-crop_transp[4],uuid:85a119d8-d81e-469a-8380-55d0866183ec/survey-crop_transp
+1,8,Ibijumba,500,150,uuid:f4fe2e2e-51f1-43bc-8866-c1706fd497b6,uuid:f4fe2e2e-51f1-43bc-8866-c1706fd497b6/survey-crop_transp[1],uuid:f4fe2e2e-51f1-43bc-8866-c1706fd497b6/survey-crop_transp
+2,30,Inanasi,80,0,uuid:f4fe2e2e-51f1-43bc-8866-c1706fd497b6,uuid:f4fe2e2e-51f1-43bc-8866-c1706fd497b6/survey-crop_transp[2],uuid:f4fe2e2e-51f1-43bc-8866-c1706fd497b6/survey-crop_transp
+1,2,Amasaka,70,,uuid:d37e3331-575c-4aba-ad3c-d8aba15364f8,uuid:d37e3331-575c-4aba-ad3c-d8aba15364f8/survey-crop_transp[1],uuid:d37e3331-575c-4aba-ad3c-d8aba15364f8/survey-crop_transp
+2,3,Ingano,60,,uuid:d37e3331-575c-4aba-ad3c-d8aba15364f8,uuid:d37e3331-575c-4aba-ad3c-d8aba15364f8/survey-crop_transp[2],uuid:d37e3331-575c-4aba-ad3c-d8aba15364f8/survey-crop_transp
+3,7,Ibirayi,280,,uuid:d37e3331-575c-4aba-ad3c-d8aba15364f8,uuid:d37e3331-575c-4aba-ad3c-d8aba15364f8/survey-crop_transp[3],uuid:d37e3331-575c-4aba-ad3c-d8aba15364f8/survey-crop_transp
+1,7,Irish Potatoes,0,300,uuid:e1a5852e-9c72-4964-b295-90af318da899,uuid:e1a5852e-9c72-4964-b295-90af318da899/survey-crop_transp[1],uuid:e1a5852e-9c72-4964-b295-90af318da899/survey-crop_transp
+2,8,Sweet Potatoes,30,0,uuid:e1a5852e-9c72-4964-b295-90af318da899,uuid:e1a5852e-9c72-4964-b295-90af318da899/survey-crop_transp[2],uuid:e1a5852e-9c72-4964-b295-90af318da899/survey-crop_transp
+3,36,Mango,20,0,uuid:e1a5852e-9c72-4964-b295-90af318da899,uuid:e1a5852e-9c72-4964-b295-90af318da899/survey-crop_transp[3],uuid:e1a5852e-9c72-4964-b295-90af318da899/survey-crop_transp
+4,40,Cassava,20,0,uuid:e1a5852e-9c72-4964-b295-90af318da899,uuid:e1a5852e-9c72-4964-b295-90af318da899/survey-crop_transp[4],uuid:e1a5852e-9c72-4964-b295-90af318da899/survey-crop_transp
+1,7,Ibirayi,200,,uuid:517e210f-c5f4-405d-8e0a-61f6cee0bba1,uuid:517e210f-c5f4-405d-8e0a-61f6cee0bba1/survey-crop_transp[1],uuid:517e210f-c5f4-405d-8e0a-61f6cee0bba1/survey-crop_transp
+2,8,Ibijumba,150,,uuid:517e210f-c5f4-405d-8e0a-61f6cee0bba1,uuid:517e210f-c5f4-405d-8e0a-61f6cee0bba1/survey-crop_transp[2],uuid:517e210f-c5f4-405d-8e0a-61f6cee0bba1/survey-crop_transp
+1,1,Ibigori,50,,uuid:1be720fd-6207-4834-848c-007c56b084f4,uuid:1be720fd-6207-4834-848c-007c56b084f4/survey-crop_transp[1],uuid:1be720fd-6207-4834-848c-007c56b084f4/survey-crop_transp
+2,38,Avoka,25,,uuid:1be720fd-6207-4834-848c-007c56b084f4,uuid:1be720fd-6207-4834-848c-007c56b084f4/survey-crop_transp[2],uuid:1be720fd-6207-4834-848c-007c56b084f4/survey-crop_transp
+1,1,Maize,40,,uuid:49f3f118-cefc-4f51-83dc-cf21cb4de00b,uuid:49f3f118-cefc-4f51-83dc-cf21cb4de00b/survey-crop_transp[1],uuid:49f3f118-cefc-4f51-83dc-cf21cb4de00b/survey-crop_transp
+2,8,Sweet Potatoes,120,,uuid:49f3f118-cefc-4f51-83dc-cf21cb4de00b,uuid:49f3f118-cefc-4f51-83dc-cf21cb4de00b/survey-crop_transp[2],uuid:49f3f118-cefc-4f51-83dc-cf21cb4de00b/survey-crop_transp
+3,21,Cabbage,80,,uuid:49f3f118-cefc-4f51-83dc-cf21cb4de00b,uuid:49f3f118-cefc-4f51-83dc-cf21cb4de00b/survey-crop_transp[3],uuid:49f3f118-cefc-4f51-83dc-cf21cb4de00b/survey-crop_transp
+4,-77,Other,40,,uuid:49f3f118-cefc-4f51-83dc-cf21cb4de00b,uuid:49f3f118-cefc-4f51-83dc-cf21cb4de00b/survey-crop_transp[4],uuid:49f3f118-cefc-4f51-83dc-cf21cb4de00b/survey-crop_transp
