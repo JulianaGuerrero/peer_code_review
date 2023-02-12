@@ -1,31 +1,31 @@
-trucker_index,contract_wta,trucker_id,trucker_name_pl,confirm_name,trucker_name_new,truck_type_new,amount_paid,trucker_name,PARENT_KEY,KEY,SET-OF-trucker
-1,1,440601008-6,Karyango Jean Damascene,1,,,,Karyango Jean Damascene,uuid:bba239f3-89f4-4ef1-a47f-0c53c892ddbb,uuid:bba239f3-89f4-4ef1-a47f-0c53c892ddbb/survey-trucker[1],uuid:bba239f3-89f4-4ef1-a47f-0c53c892ddbb/survey-trucker
-1,1,561002055-5,NGumije Jean Pierre,1,,,,NGumije Jean Pierre,uuid:8958e865-7945-4677-9581-e1c3d9730857,uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-trucker[1],uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-trucker
-2,1,561002055-3,Ndikubwimana Anselme,1,,,,Ndikubwimana Anselme,uuid:8958e865-7945-4677-9581-e1c3d9730857,uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-trucker[2],uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-trucker
-1,0,,,,NKUNDIMANA Meshaki,2,70000,NKUNDIMANA Meshaki,uuid:18ada361-95ad-4167-a0de-f1a156671b65,uuid:18ada361-95ad-4167-a0de-f1a156671b65/survey-trucker[1],uuid:18ada361-95ad-4167-a0de-f1a156671b65/survey-trucker
-1,1,521102081-1,Twagiramungu Francois/saveri,1,,,,Twagiramungu Francois/saveri,uuid:56995dd2-a2cc-4414-a28f-e75f07dfd705,uuid:56995dd2-a2cc-4414-a28f-e75f07dfd705/survey-trucker[1],uuid:56995dd2-a2cc-4414-a28f-e75f07dfd705/survey-trucker
-2,1,521102081-2,Charles Nasagara,1,,,,Charles Nasagara,uuid:56995dd2-a2cc-4414-a28f-e75f07dfd705,uuid:56995dd2-a2cc-4414-a28f-e75f07dfd705/survey-trucker[2],uuid:56995dd2-a2cc-4414-a28f-e75f07dfd705/survey-trucker
-1,0,,,,Ndasaba Felix,3,40000,Ndasaba Felix,uuid:918b1953-a69d-4b39-b940-535e1b02393d,uuid:918b1953-a69d-4b39-b940-535e1b02393d/survey-trucker[1],uuid:918b1953-a69d-4b39-b940-535e1b02393d/survey-trucker
-1,1,451803028-2,KARANGWA Diogene,1,,,,KARANGWA Diogene,uuid:c1c222e6-31b4-418c-88d0-91e52fc3f5bd,uuid:c1c222e6-31b4-418c-88d0-91e52fc3f5bd/survey-trucker[1],uuid:c1c222e6-31b4-418c-88d0-91e52fc3f5bd/survey-trucker
-1,1,570502001-1,Ganishuri Jean Bosco,1,,,,Ganishuri Jean Bosco,uuid:9241078e-31cd-47ce-8831-438c88575253,uuid:9241078e-31cd-47ce-8831-438c88575253/survey-trucker[1],uuid:9241078e-31cd-47ce-8831-438c88575253/survey-trucker
-1,1,370704087-4,NAHAYO Clement,1,,,,NAHAYO Clement,uuid:6bb5bd9b-300d-4f4e-b044-3e828cb7f84a,uuid:6bb5bd9b-300d-4f4e-b044-3e828cb7f84a/survey-trucker[1],uuid:6bb5bd9b-300d-4f4e-b044-3e828cb7f84a/survey-trucker
-1,0,,,,SEKANUANA Emmanuel,1,40000,SEKANUANA Emmanuel,uuid:c17bcbfa-e0f9-4a81-bf80-d05d8dc1d052,uuid:c17bcbfa-e0f9-4a81-bf80-d05d8dc1d052/survey-trucker[1],uuid:c17bcbfa-e0f9-4a81-bf80-d05d8dc1d052/survey-trucker
-1,1,230305096-2,Nsanzimana Thadee,1,,,,Nsanzimana Thadee,uuid:85a119d8-d81e-469a-8380-55d0866183ec,uuid:85a119d8-d81e-469a-8380-55d0866183ec/survey-trucker[1],uuid:85a119d8-d81e-469a-8380-55d0866183ec/survey-trucker
-2,1,230305096-13,Sunzu Innocent,1,,,,Sunzu Innocent,uuid:85a119d8-d81e-469a-8380-55d0866183ec,uuid:85a119d8-d81e-469a-8380-55d0866183ec/survey-trucker[2],uuid:85a119d8-d81e-469a-8380-55d0866183ec/survey-trucker
-1,1,361602115-2,Uwayezu samwel,1,,,,Uwayezu samwel,uuid:f4fe2e2e-51f1-43bc-8866-c1706fd497b6,uuid:f4fe2e2e-51f1-43bc-8866-c1706fd497b6/survey-trucker[1],uuid:f4fe2e2e-51f1-43bc-8866-c1706fd497b6/survey-trucker
-1,1,521007080-1,Nsengimana Evalste,1,,,,Nsengimana Evalste,uuid:8cfddc40-9085-40a5-ac60-fb295fefce9e,uuid:8cfddc40-9085-40a5-ac60-fb295fefce9e/survey-trucker[1],uuid:8cfddc40-9085-40a5-ac60-fb295fefce9e/survey-trucker
-1,1,440306006-1,UWIMANA Eric,1,,,,UWIMANA Eric,uuid:d37e3331-575c-4aba-ad3c-d8aba15364f8,uuid:d37e3331-575c-4aba-ad3c-d8aba15364f8/survey-trucker[1],uuid:d37e3331-575c-4aba-ad3c-d8aba15364f8/survey-trucker
-1,0,,,,SEKANYANA Emmanuel,1,40000,SEKANYANA Emmanuel,uuid:b30072e7-f36e-4cf8-b92e-efe7c6ed2724,uuid:b30072e7-f36e-4cf8-b92e-efe7c6ed2724/survey-trucker[1],uuid:b30072e7-f36e-4cf8-b92e-efe7c6ed2724/survey-trucker
-1,1,230601097-4,Sibomuremyi Venuste,1,,,,Sibomuremyi Venuste,uuid:e0e37c0a-309a-4df6-859a-e6d1af95d4ef,uuid:e0e37c0a-309a-4df6-859a-e6d1af95d4ef/survey-trucker[1],uuid:e0e37c0a-309a-4df6-859a-e6d1af95d4ef/survey-trucker
-1,0,,,,NSENGIYUMVA F Xavier,1,45000,NSENGIYUMVA F Xavier,uuid:e1a5852e-9c72-4964-b295-90af318da899,uuid:e1a5852e-9c72-4964-b295-90af318da899/survey-trucker[1],uuid:e1a5852e-9c72-4964-b295-90af318da899/survey-trucker
-1,1,230601097-1,Sebigabiro Pierre celestin,1,,,,Sebigabiro Pierre celestin,uuid:517e210f-c5f4-405d-8e0a-61f6cee0bba1,uuid:517e210f-c5f4-405d-8e0a-61f6cee0bba1/survey-trucker[1],uuid:517e210f-c5f4-405d-8e0a-61f6cee0bba1/survey-trucker
-1,1,241006041-2,Nsengiyumva Eugene,1,,,,Nsengiyumva Eugene,uuid:151ffcf9-7cb3-4e27-b92b-4fc40827afe2,uuid:151ffcf9-7cb3-4e27-b92b-4fc40827afe2/survey-trucker[1],uuid:151ffcf9-7cb3-4e27-b92b-4fc40827afe2/survey-trucker
-1,1,560803056-2,Bangumuvunyi Jean de Dieu,1,,,,Bangumuvunyi Jean de Dieu,uuid:0805d8c2-08eb-4bbf-b016-870aaf41be3c,uuid:0805d8c2-08eb-4bbf-b016-870aaf41be3c/survey-trucker[1],uuid:0805d8c2-08eb-4bbf-b016-870aaf41be3c/survey-trucker
-2,1,560803056-3,Kayitesi cornelion,1,,,,Kayitesi cornelion,uuid:0805d8c2-08eb-4bbf-b016-870aaf41be3c,uuid:0805d8c2-08eb-4bbf-b016-870aaf41be3c/survey-trucker[2],uuid:0805d8c2-08eb-4bbf-b016-870aaf41be3c/survey-trucker
-1,1,430803054-6,Itangishaka Salim,1,,,,Itangishaka Salim,uuid:1be720fd-6207-4834-848c-007c56b084f4,uuid:1be720fd-6207-4834-848c-007c56b084f4/survey-trucker[1],uuid:1be720fd-6207-4834-848c-007c56b084f4/survey-trucker
-1,1,531004020-4,Sibomana hamad,1,,,,Sibomana hamad,uuid:cb0d9e0f-b58a-4d3e-b89b-f7566213be1d,uuid:cb0d9e0f-b58a-4d3e-b89b-f7566213be1d/survey-trucker[1],uuid:cb0d9e0f-b58a-4d3e-b89b-f7566213be1d/survey-trucker
-1,1,520406076-5,Turikumwe Gad,1,,,,Turikumwe Gad,uuid:434a6b1d-63b0-42b0-a70d-e72060b3259a,uuid:434a6b1d-63b0-42b0-a70d-e72060b3259a/survey-trucker[1],uuid:434a6b1d-63b0-42b0-a70d-e72060b3259a/survey-trucker
-1,1,320101116-2,Hitimana Anastase,1,,,,Hitimana Anastase,uuid:dc20eede-ee49-465d-94e7-e0d1b4c94e95,uuid:dc20eede-ee49-465d-94e7-e0d1b4c94e95/survey-trucker[1],uuid:dc20eede-ee49-465d-94e7-e0d1b4c94e95/survey-trucker
-1,0,,,,BARIHE Gilbert,1,50000,BARIHE Gilbert,uuid:49f3f118-cefc-4f51-83dc-cf21cb4de00b,uuid:49f3f118-cefc-4f51-83dc-cf21cb4de00b/survey-trucker[1],uuid:49f3f118-cefc-4f51-83dc-cf21cb4de00b/survey-trucker
-1,1,231305099-3,NDIZIHIWE Zacharie,1,,,,NDIZIHIWE Zacharie,uuid:aa6faf87-7bb5-4e6e-ad7d-9d323b700a28,uuid:aa6faf87-7bb5-4e6e-ad7d-9d323b700a28/survey-trucker[1],uuid:aa6faf87-7bb5-4e6e-ad7d-9d323b700a28/survey-trucker
-1,1,340104066-2,Safari Jean-Bosco,1,,,,Safari Jean-Bosco,uuid:c824fc0f-83a2-4268-9712-553443a09815,uuid:c824fc0f-83a2-4268-9712-553443a09815/survey-trucker[1],uuid:c824fc0f-83a2-4268-9712-553443a09815/survey-trucker
+trucker_index,contract_wta,trucker_id,confirm_name,trucker_name_new,truck_type_new,amount_paid,PARENT_KEY,KEY,SET-OF-trucker
+1,1,440601008-6,1,,,,uuid:bba239f3-89f4-4ef1-a47f-0c53c892ddbb,uuid:bba239f3-89f4-4ef1-a47f-0c53c892ddbb/survey-trucker[1],uuid:bba239f3-89f4-4ef1-a47f-0c53c892ddbb/survey-trucker
+1,1,561002055-5,1,,,,uuid:8958e865-7945-4677-9581-e1c3d9730857,uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-trucker[1],uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-trucker
+2,1,561002055-3,1,,,,uuid:8958e865-7945-4677-9581-e1c3d9730857,uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-trucker[2],uuid:8958e865-7945-4677-9581-e1c3d9730857/survey-trucker
+1,0,,,NKUNDIMANA Meshaki,2,70000,uuid:18ada361-95ad-4167-a0de-f1a156671b65,uuid:18ada361-95ad-4167-a0de-f1a156671b65/survey-trucker[1],uuid:18ada361-95ad-4167-a0de-f1a156671b65/survey-trucker
+1,1,521102081-1,1,,,,uuid:56995dd2-a2cc-4414-a28f-e75f07dfd705,uuid:56995dd2-a2cc-4414-a28f-e75f07dfd705/survey-trucker[1],uuid:56995dd2-a2cc-4414-a28f-e75f07dfd705/survey-trucker
+2,1,521102081-2,1,,,,uuid:56995dd2-a2cc-4414-a28f-e75f07dfd705,uuid:56995dd2-a2cc-4414-a28f-e75f07dfd705/survey-trucker[2],uuid:56995dd2-a2cc-4414-a28f-e75f07dfd705/survey-trucker
+1,0,,,Ndasaba Felix,3,40000,uuid:918b1953-a69d-4b39-b940-535e1b02393d,uuid:918b1953-a69d-4b39-b940-535e1b02393d/survey-trucker[1],uuid:918b1953-a69d-4b39-b940-535e1b02393d/survey-trucker
+1,1,451803028-2,1,,,,uuid:c1c222e6-31b4-418c-88d0-91e52fc3f5bd,uuid:c1c222e6-31b4-418c-88d0-91e52fc3f5bd/survey-trucker[1],uuid:c1c222e6-31b4-418c-88d0-91e52fc3f5bd/survey-trucker
+1,1,570502001-1,1,,,,uuid:9241078e-31cd-47ce-8831-438c88575253,uuid:9241078e-31cd-47ce-8831-438c88575253/survey-trucker[1],uuid:9241078e-31cd-47ce-8831-438c88575253/survey-trucker
+1,1,370704087-4,1,,,,uuid:6bb5bd9b-300d-4f4e-b044-3e828cb7f84a,uuid:6bb5bd9b-300d-4f4e-b044-3e828cb7f84a/survey-trucker[1],uuid:6bb5bd9b-300d-4f4e-b044-3e828cb7f84a/survey-trucker
+1,0,,,SEKANUANA Emmanuel,1,40000,uuid:c17bcbfa-e0f9-4a81-bf80-d05d8dc1d052,uuid:c17bcbfa-e0f9-4a81-bf80-d05d8dc1d052/survey-trucker[1],uuid:c17bcbfa-e0f9-4a81-bf80-d05d8dc1d052/survey-trucker
+1,1,230305096-2,1,,,,uuid:85a119d8-d81e-469a-8380-55d0866183ec,uuid:85a119d8-d81e-469a-8380-55d0866183ec/survey-trucker[1],uuid:85a119d8-d81e-469a-8380-55d0866183ec/survey-trucker
+2,1,230305096-13,1,,,,uuid:85a119d8-d81e-469a-8380-55d0866183ec,uuid:85a119d8-d81e-469a-8380-55d0866183ec/survey-trucker[2],uuid:85a119d8-d81e-469a-8380-55d0866183ec/survey-trucker
+1,1,361602115-2,1,,,,uuid:f4fe2e2e-51f1-43bc-8866-c1706fd497b6,uuid:f4fe2e2e-51f1-43bc-8866-c1706fd497b6/survey-trucker[1],uuid:f4fe2e2e-51f1-43bc-8866-c1706fd497b6/survey-trucker
+1,1,521007080-1,1,,,,uuid:8cfddc40-9085-40a5-ac60-fb295fefce9e,uuid:8cfddc40-9085-40a5-ac60-fb295fefce9e/survey-trucker[1],uuid:8cfddc40-9085-40a5-ac60-fb295fefce9e/survey-trucker
+1,1,440306006-1,1,,,,uuid:d37e3331-575c-4aba-ad3c-d8aba15364f8,uuid:d37e3331-575c-4aba-ad3c-d8aba15364f8/survey-trucker[1],uuid:d37e3331-575c-4aba-ad3c-d8aba15364f8/survey-trucker
+1,0,,,SEKANYANA Emmanuel,1,40000,uuid:b30072e7-f36e-4cf8-b92e-efe7c6ed2724,uuid:b30072e7-f36e-4cf8-b92e-efe7c6ed2724/survey-trucker[1],uuid:b30072e7-f36e-4cf8-b92e-efe7c6ed2724/survey-trucker
+1,1,230601097-4,1,,,,uuid:e0e37c0a-309a-4df6-859a-e6d1af95d4ef,uuid:e0e37c0a-309a-4df6-859a-e6d1af95d4ef/survey-trucker[1],uuid:e0e37c0a-309a-4df6-859a-e6d1af95d4ef/survey-trucker
+1,0,,,NSENGIYUMVA F Xavier,1,45000,uuid:e1a5852e-9c72-4964-b295-90af318da899,uuid:e1a5852e-9c72-4964-b295-90af318da899/survey-trucker[1],uuid:e1a5852e-9c72-4964-b295-90af318da899/survey-trucker
+1,1,230601097-1,1,,,,uuid:517e210f-c5f4-405d-8e0a-61f6cee0bba1,uuid:517e210f-c5f4-405d-8e0a-61f6cee0bba1/survey-trucker[1],uuid:517e210f-c5f4-405d-8e0a-61f6cee0bba1/survey-trucker
+1,1,241006041-2,1,,,,uuid:151ffcf9-7cb3-4e27-b92b-4fc40827afe2,uuid:151ffcf9-7cb3-4e27-b92b-4fc40827afe2/survey-trucker[1],uuid:151ffcf9-7cb3-4e27-b92b-4fc40827afe2/survey-trucker
+1,1,560803056-2,1,,,,uuid:0805d8c2-08eb-4bbf-b016-870aaf41be3c,uuid:0805d8c2-08eb-4bbf-b016-870aaf41be3c/survey-trucker[1],uuid:0805d8c2-08eb-4bbf-b016-870aaf41be3c/survey-trucker
+2,1,560803056-3,1,,,,uuid:0805d8c2-08eb-4bbf-b016-870aaf41be3c,uuid:0805d8c2-08eb-4bbf-b016-870aaf41be3c/survey-trucker[2],uuid:0805d8c2-08eb-4bbf-b016-870aaf41be3c/survey-trucker
+1,1,430803054-6,1,,,,uuid:1be720fd-6207-4834-848c-007c56b084f4,uuid:1be720fd-6207-4834-848c-007c56b084f4/survey-trucker[1],uuid:1be720fd-6207-4834-848c-007c56b084f4/survey-trucker
+1,1,531004020-4,1,,,,uuid:cb0d9e0f-b58a-4d3e-b89b-f7566213be1d,uuid:cb0d9e0f-b58a-4d3e-b89b-f7566213be1d/survey-trucker[1],uuid:cb0d9e0f-b58a-4d3e-b89b-f7566213be1d/survey-trucker
+1,1,520406076-5,1,,,,uuid:434a6b1d-63b0-42b0-a70d-e72060b3259a,uuid:434a6b1d-63b0-42b0-a70d-e72060b3259a/survey-trucker[1],uuid:434a6b1d-63b0-42b0-a70d-e72060b3259a/survey-trucker
+1,1,320101116-2,1,,,,uuid:dc20eede-ee49-465d-94e7-e0d1b4c94e95,uuid:dc20eede-ee49-465d-94e7-e0d1b4c94e95/survey-trucker[1],uuid:dc20eede-ee49-465d-94e7-e0d1b4c94e95/survey-trucker
+1,0,,,BARIHE Gilbert,1,50000,uuid:49f3f118-cefc-4f51-83dc-cf21cb4de00b,uuid:49f3f118-cefc-4f51-83dc-cf21cb4de00b/survey-trucker[1],uuid:49f3f118-cefc-4f51-83dc-cf21cb4de00b/survey-trucker
+1,1,231305099-3,1,,,,uuid:aa6faf87-7bb5-4e6e-ad7d-9d323b700a28,uuid:aa6faf87-7bb5-4e6e-ad7d-9d323b700a28/survey-trucker[1],uuid:aa6faf87-7bb5-4e6e-ad7d-9d323b700a28/survey-trucker
+1,1,340104066-2,1,,,,uuid:c824fc0f-83a2-4268-9712-553443a09815,uuid:c824fc0f-83a2-4268-9712-553443a09815/survey-trucker[1],uuid:c824fc0f-83a2-4268-9712-553443a09815/survey-trucker
